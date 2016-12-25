@@ -59,142 +59,40 @@
 
         <div class="clearfix"></div>
         <!-- page content -->
-        <div class="right_col" role="main">
+            <div class="right_col" role="main" style=" background-color: #d9534f;">
+              <div class="row" style="margin: 0px auto;">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 60px; margin: 0px auto; ">
+                <div class="x_panel ui-ribbon-container" style=" background-color: #d9534f; border: 0px;">
+                  <div class="x_title label-danger" style="color: #ffffff; text-align: center;">
+                    <h1>DANGER</h1>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
 
-
-              <div class="row"  style="margin-top: 60px;">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-
-                  <div class="col-md-12 col-sm-12  widget_tally_box" style="width: 100%;">
-                    <div class="x_panel">
-                      <div class="x_content">
-
-                        <div class="flex">
-                          <span class="label label-success" style="width: 100%; font-size: large; padding-bottom: 10px; padding-top: 10px;">
-                            You are in Safe!
-                          </span>
-                        </div>
-
-
-                        <div class="clearfix"></div>
-
-                        <div class="flex" style="padding-bottom: 5px; padding-top: 5px;">
-                          <p style="margin: 0px auto; ">
-                           Last updated : 10/08/2016 24:54
-                          </p>
-                        </div>
-                        <div class="flex">
-                          <ul class="list-inline count2">
-                            <li>
-                              <h3>04</h3>
-                              <span>Disasters</span>
-                            </li>
-                            <li>
-                              <h3>1234</h3>
-                              <span>Victims</span>
-                            </li>
-                            <li>
-                              <h3>123</h3>
-                              <span>Helpers</span>
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div class="flex">
-                          <ul class="list-inline" style="margin: 0px auto;">
-                            <li>
-                              <a href="disaster_reporting.php">
-                              <button type="button" class="btn btn-danger">Report</button>
-                              </a>
-                              <a href="become_helper.php">
-                              <button type="button" class="btn btn-primary">Become Helper</button>
-                              </a>
-                            </li>
-
-                          </ul>
-                        </div>
-                      </div>
+                    <div style="text-align: center; margin-bottom: 17px">
+                              <span class="chart" data-percent="86">
+                                                  <span class="percent" style="color: #ffffff;">86</span>
+                              <canvas height="148" width="148" style="height: 110px; width: 110px;"></canvas></span>
                     </div>
+
+                    <h4 class="name_title" style="text-align: center; color: #ffffff;">Tshunai Predicted Area</h4>
+                    <div class="divider"></div>
+                    <h4 class="name_title" style="text-align: center; color: #ffffff;">2h : 20m</h4>
+                    <p style="color: #ffffff; text-align: center;"> Please be Safe!</p>
+
+                  </div>
+
+                  <div class="flex">
+                        <a href="alerts.php">
+                        <button type="button" class="btn btn-warning" style="float: left;">OFF</button>
+                        </a>
+                         <a href="alerts.php">
+                        <button type="button" class="btn btn-warning" style="float: right;">CANCEL</button>
+                        </a>
                   </div>
 
                 </div>
               </div>
-
-              <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="x_panel">
-                    <div class="x_title">
-                      <h2>Your are here,  <span class="label label-success" style="color: #ffffff; font-weight: normal; float: right;">SAFE</span></h2>
-                      <ul class="nav navbar-right panel_toolbox">
-                        <li  style="float: right;"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                        </li>
-                      </ul>
-                      <div class="clearfix"></div>
-                    </div>
-                    <div class="x_content">
-                      <div class="dashboard-widget-content">
-
-                        <style>
-                          #map {
-                            height: 200px;
-                          }
-                        </style>
-                        <div id="map"></div>
-                        <script>
-                          // Note: This example requires that you consent to location sharing when
-                          // prompted by your browser. If you see the error "The Geolocation service
-                          // failed.", it means you probably did not give permission for the browser to
-                          // locate you.
-
-                          function initMap() {
-                            var map = new google.maps.Map(document.getElementById('map'), {
-                              center: {lat: -34.397, lng: 150.644},
-                              zoom: 14
-                            });
-                            var infoWindow = new google.maps.InfoWindow({map: map});
-
-                            // Try HTML5 geolocation.
-                            if (navigator.geolocation) {
-                              navigator.geolocation.getCurrentPosition(function(position) {
-                                var pos = {
-                                  lat: position.coords.latitude,
-                                  lng: position.coords.longitude
-                                };
-
-                                infoWindow.setPosition(pos);
-                                infoWindow.setContent('Located');
-                                map.setCenter(pos);
-                              }, function() {
-                                handleLocationError(true, infoWindow, map.getCenter());
-                              });
-                            } else {
-                              // Browser doesn't support Geolocation
-                              handleLocationError(false, infoWindow, map.getCenter());
-                            }
-                          }
-
-                          function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-                            infoWindow.setPosition(pos);
-                            infoWindow.setContent(browserHasGeolocation ?
-                                'Error: The Geolocation service failed.' :
-                                'Error: Your browser doesn\'t support geolocation.');
-                          }
-                        </script>
-                        <script async defer
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7HGxOLetgeLnpdFE2yZchSENPrNuwQho&callback=initMap">
-                        </script>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="row">
-
-
-
-                
-
               </div>
             </div>
           </div>
@@ -249,6 +147,7 @@
 
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
+
 
     <!-- Flot -->
     <script>
@@ -372,6 +271,24 @@
     </script>
     <!-- /Skycons -->
 
+    <script>
+      $(function() {
+        $('.chart').easyPieChart({
+          easing: 'easeOutElastic',
+          delay: 3000,
+          barColor: '#26B99A',
+          trackColor: '#fff',
+          scaleColor: false,
+          lineWidth: 20,
+          trackWidth: 16,
+          lineCap: 'butt',
+          onStep: function(from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+          }
+        });
+      });
+    </script>
+
     <!-- Doughnut Chart -->
     <script>
       $(document).ready(function(){
@@ -414,7 +331,7 @@
       });
     </script>
     <!-- /Doughnut Chart -->
-    
+
     <!-- bootstrap-daterangepicker -->
     <script>
       $(document).ready(function() {
@@ -515,5 +432,28 @@
       gauge.setTextField(document.getElementById("gauge-text"));
     </script>
     <!-- /gauge.js -->
+
+
+
+
+    <script src="../vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script>
+      $(function() {
+        $('.chart').easyPieChart({
+          easing: 'easeOutElastic',
+          delay: 3000,
+          barColor: '#26B99A',
+          trackColor: '#fff',
+          scaleColor: false,
+          lineWidth: 20,
+          trackWidth: 16,
+          lineCap: 'butt',
+          onStep: function(from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+          }
+        });
+      });
+    </script>
   </body>
 </html>

@@ -62,57 +62,23 @@
         <div class="right_col" role="main">
 
 
-              <div class="row"  style="margin-top: 60px;">
+              <div class="row"  style="margin-top: 60px; display: none;">
                 <div class="col-md-12 col-sm-12 col-xs-12">
 
                   <div class="col-md-12 col-sm-12  widget_tally_box" style="width: 100%;">
                     <div class="x_panel">
                       <div class="x_content">
-
                         <div class="flex">
                           <span class="label label-success" style="width: 100%; font-size: large; padding-bottom: 10px; padding-top: 10px;">
-                            You are in Safe!
+                            No Dangerous! Happy
                           </span>
                         </div>
-
-
                         <div class="clearfix"></div>
-
                         <div class="flex" style="padding-bottom: 5px; padding-top: 5px;">
                           <p style="margin: 0px auto; ">
                            Last updated : 10/08/2016 24:54
                           </p>
                         </div>
-                        <div class="flex">
-                          <ul class="list-inline count2">
-                            <li>
-                              <h3>04</h3>
-                              <span>Disasters</span>
-                            </li>
-                            <li>
-                              <h3>1234</h3>
-                              <span>Victims</span>
-                            </li>
-                            <li>
-                              <h3>123</h3>
-                              <span>Helpers</span>
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div class="flex">
-                          <ul class="list-inline" style="margin: 0px auto;">
-                            <li>
-                              <a href="disaster_reporting.php">
-                              <button type="button" class="btn btn-danger">Report</button>
-                              </a>
-                              <a href="become_helper.php">
-                              <button type="button" class="btn btn-primary">Become Helper</button>
-                              </a>
-                            </li>
-
-                          </ul>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -120,82 +86,262 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="x_panel">
-                    <div class="x_title">
-                      <h2>Your are here,  <span class="label label-success" style="color: #ffffff; font-weight: normal; float: right;">SAFE</span></h2>
-                      <ul class="nav navbar-right panel_toolbox">
-                        <li  style="float: right;"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+
+          <div class="row"  style="margin-top: 60px;" >
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+              <div class="col-md-12 col-sm-12  widget_tally_box" style="width: 100%;">
+                <div class="x_panel">
+                  <div class="x_content">
+
+                    <div class="flex">
+                          <span class="label label-danger" style="width: 100%; font-size: large; padding-bottom: 10px; padding-top: 10px;">
+                            Dangerous! be Safe
+                          </span>
+                    </div>
+
+
+                    <div class="clearfix"></div>
+
+                    <div class="flex" style="padding-bottom: 5px; padding-top: 5px;">
+                      <p style="margin: 0px auto; ">
+                        Last updated : 10/08/2016 24:54
+                      </p>
+                    </div>
+                    <div class="flex" style="padding-bottom: 5px; padding-top: 5px;">
+                      <p style="margin: 0px auto; " class="text-danger">
+                         Location : Moratuwa
+                      </p>
+                    </div>
+                    <div class="flex">
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats">
+                          <div class="icon"><i class="fa fa-bullseye"></i>
+                          </div>
+                          <div class="count" style="font-size: x-large;">Tshunami</div>
+
+                          <h5 style="padding-left: 5px;"><i class="fa fa-clock-o"></i> - 12:30pm today</h5>
+                          <p> Currently located in Indonasia</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="flex">
+                      <ul class="list-inline count2">
+                        <li>
+                          <h3>44</h3>
+                          <span>Reports</span>
+                        </li>
+                        <li>
+                          <h3>70</h3>
+                          <span>Users</span>
+                        </li>
+                        <li>
+                          <h3>12</h3>
+                          <span>Confirmation</span>
                         </li>
                       </ul>
+                    </div>
+
+                    <div class="flex">
+                      <ul class="list-inline" style="margin: 0px auto;">
+                        <li>
+                          <a href="disaster_reporting.php">
+                          <button type="button" class="btn btn-danger">Report</button>
+                          </a>
+                          <a href="confirm_disaster.php">
+                          <button type="button" class="btn btn-primary">Confirm Disaster</button>
+                          </a>
+                        </li>
+
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+              <div class="row">
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="x_panel">
+                    <div class="x_title" style="max-width: 500px;">
+                      <h2><i class="fa fa-align-left"></i> Common Alerts
+                      </h2>
+                      <span class="badge badge-success" style="color: #ffffff;">5</span>
                       <div class="clearfix"></div>
                     </div>
                     <div class="x_content">
-                      <div class="dashboard-widget-content">
 
-                        <style>
-                          #map {
-                            height: 200px;
-                          }
-                        </style>
-                        <div id="map"></div>
-                        <script>
-                          // Note: This example requires that you consent to location sharing when
-                          // prompted by your browser. If you see the error "The Geolocation service
-                          // failed.", it means you probably did not give permission for the browser to
-                          // locate you.
+                      <!-- start accordion -->
+                      <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
 
-                          function initMap() {
-                            var map = new google.maps.Map(document.getElementById('map'), {
-                              center: {lat: -34.397, lng: 150.644},
-                              zoom: 14
-                            });
-                            var infoWindow = new google.maps.InfoWindow({map: map});
+                        <div class="panel">
+                          <a class="panel-heading collapsed" role="tab" id="headingTwo1" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="panel-title" style="padding-bottom: 0px; margin-bottom: 0px;">
 
-                            // Try HTML5 geolocation.
-                            if (navigator.geolocation) {
-                              navigator.geolocation.getCurrentPosition(function(position) {
-                                var pos = {
-                                  lat: position.coords.latitude,
-                                  lng: position.coords.longitude
-                                };
+                              Chennai Flooding,India  <i class="fa fa-check-circle-o" style="color: #00CC33;"></i>
+                                <span class="label label-danger" style="float: right;">
+                                  18 <i class="fa fa-bullseye"></i>
+                                </span>
+                            </h4>
 
-                                infoWindow.setPosition(pos);
-                                infoWindow.setContent('Located');
-                                map.setCenter(pos);
-                              }, function() {
-                                handleLocationError(true, infoWindow, map.getCenter());
-                              });
-                            } else {
-                              // Browser doesn't support Geolocation
-                              handleLocationError(false, infoWindow, map.getCenter());
-                            }
-                          }
+                          </a>
+                          <div id="collapseTwo1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo1" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body" style="padding-top: 0px; padding-bottom: 0px;">
+                              <div class="x_content">
+                                <div class="dashboard-widget-content">
 
-                          function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-                            infoWindow.setPosition(pos);
-                            infoWindow.setContent(browserHasGeolocation ?
-                                'Error: The Geolocation service failed.' :
-                                'Error: Your browser doesn\'t support geolocation.');
-                          }
-                        </script>
-                        <script async defer
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7HGxOLetgeLnpdFE2yZchSENPrNuwQho&callback=initMap">
-                        </script>
+                                  <div class="flex" style="margin-top: 7px;">
+                                    <table class="table table-hover">
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-map-marker"></i></th>
+                                        <td>Delhi, India</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-clock-o"></i></th>
+                                        <td>4h 20m before</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-bullseye"></i></th>
+                                        <td>Normal</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-male"></i></th>
+                                        <td>18 Persons</td>
+                                      </tr>
+                                    </table>
+                                  </div>
+
+                                  <div class="clearfix"></div>
+                                  <div class="flex" style="margin-top: 7px;">
+                                    <button type="button" class="btn btn-success" style="float: left;">More</button>
+                                    <button type="button" class="btn btn-success" style="float: right;">Alert my contact</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="panel">
+                          <a class="panel-heading collapsed" role="tab" id="headingTwo2" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="panel-title" style="padding-bottom: 0px; margin-bottom: 0px;">
+
+                              Japan Volcano Eruption <i class="fa fa-check-circle-o" style="color: #00CC33;"></i>
+                                <span class="label label-danger" style="float: right;">
+                                  88 <i class="fa fa-bullseye"></i>
+                                </span>
+                            </h4>
+
+                          </a>
+                          <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body" style="padding-top: 0px; padding-bottom: 0px;">
+                              <div class="x_content">
+                                <div class="dashboard-widget-content">
+
+                                  <div class="flex" style="margin-top: 7px;">
+                                    <table class="table table-hover">
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-map-marker"></i></th>
+                                        <td>Tokyo, Japan</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-clock-o"></i></th>
+                                        <td>4h 20m before</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-bullseye"></i></th>
+                                        <td>Critical</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-male"></i></th>
+                                        <td>88 Persons</td>
+                                      </tr>
+                                    </table>
+                                  </div>
+
+                                  <div class="clearfix"></div>
+                                  <div class="flex" style="margin-top: 7px;">
+                                    <button type="button" class="btn btn-success" style="float: left;">More</button>
+                                    <button type="button" class="btn btn-success" style="float: right;">Alert my contact</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="panel">
+                          <a class="panel-heading collapsed" role="tab" id="headingTwo3" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="panel-title" style="padding-bottom: 0px; margin-bottom: 0px;">
+
+                              Heavy Rain, North Carolina <i class="fa fa-check-circle-o" style="color: #00CC33;"></i>
+                                <span class="label label-danger" style="float: right;">
+                                  60F <i class="fa fa-bullseye"></i>
+                                </span>
+                            </h4>
+
+                          </a>
+                          <div id="collapseTwo3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo3" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body" style="padding-top: 0px; padding-bottom: 0px;">
+                              <div class="x_content">
+                                <div class="dashboard-widget-content">
+
+                                  <div class="flex" style="margin-top: 7px;">
+                                    <table class="table table-hover">
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-map-marker"></i></th>
+                                        <td>North Carolina, America</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-clock-o"></i></th>
+                                        <td>8h 40m before</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-bullseye"></i></th>
+                                        <td>Medium</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><i class="fa fa-male"></i></th>
+                                        <td>60 Families</td>
+                                      </tr>
+                                    </table>
+                                  </div>
+
+                                  <div class="clearfix"></div>
+                                  <div class="flex" style="margin-top: 7px;">
+                                    <button type="button" class="btn btn-success" style="float: left;">More</button>
+                                    <button type="button" class="btn btn-success" style="float: right;">Alert my contact</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="row">
-
-
+                      <!-- end of accordion -->
 
                 
 
               </div>
+
+
             </div>
           </div>
         </div>

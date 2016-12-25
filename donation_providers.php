@@ -63,139 +63,147 @@
 
 
               <div class="row"  style="margin-top: 60px;">
-                <div class="col-md-12 col-sm-12 col-xs-12">
 
-                  <div class="col-md-12 col-sm-12  widget_tally_box" style="width: 100%;">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="x_panel">
+                      <div class="x_title" style="max-width: 500px;">
+                        <h2><i class="fa fa-align-left"></i> Donation Requests
+                          </h2>
+                        <span class="badge badge-success" style="color: #ffffff;">42</span>
+                        <div class="clearfix"></div>
+                      </div>
                       <div class="x_content">
 
-                        <div class="flex">
-                          <span class="label label-success" style="width: 100%; font-size: large; padding-bottom: 10px; padding-top: 10px;">
-                            You are in Safe!
-                          </span>
+                        <!-- start accordion -->
+                        <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+
+                          <div class="panel">
+                            <a class="panel-heading collapsed" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <h4 class="panel-title" style="padding-bottom: 0px; margin-bottom: 0px;">
+                                <span class="image user-profile"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                RED Cross - ST1 <i class="fa fa-check-circle-o" style="color: #00CC33;"></i>
+                                <span class="label label-success" style="float: right;">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star-half"></i>
+                                  <i class="fa fa-star-o"></i>
+                                </span>
+                              </h4>
+                              <h6 style="padding-left: 45px; margin-top: -5px; margin-bottom: 0px; padding-bottom: 0px;">
+                                <i class="fa fa-map-marker" style="color: #00CC33;"></i> Moratuw,Sri Lanka
+                              </h6>
+                              <div style="float:right; margin-top: -8px;">
+                                <i class="fa fa-circle"></i> LKR 4000
+                              </div>
+                            </a>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                              <div class="panel-body" style="padding-top: 0px; padding-bottom: 0px;">
+                                <div class="x_content">
+                                  <div class="dashboard-widget-content">
+                                    <input type="text" class="form-control" placeholder="Amount" value="4000">
+                                    <div class="clearfix"></div>
+                                    <div class="flex" style="margin-top: 7px;">
+                                      <button type="button" class="btn btn-danger" style="float: left;">Save</button>
+                                      <button type="button" class="btn btn-success" style="float: right;">Pay Now</button>
+                                      <button type="button" class="btn btn-info" style="float: right;">Pay After</button>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel">
+                            <a class="panel-heading collapsed" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo">
+                              <h4 class="panel-title" style="padding-bottom: 0px; margin-bottom: 0px;">
+                                <span class="image user-profile"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                Visaka <small>@visar1</small>
+                                <span class="label label-success" style="float: right;">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star-o"></i>
+                                </span>
+                              </h4>
+                              <h6 style="padding-left: 45px; margin-top: -5px; margin-bottom: 0px; padding-bottom: 0px;">
+                                <i class="fa fa-map-marker" style="color: #00CC33;"></i> Colombo,Sri Lanka
+                              </h6>
+                              <div style="float:right; margin-top: -8px;">
+                                <i class="fa fa-circle"></i> LKR 3000
+                              </div>
+                            </a>
+                            <div id="collapseTwo1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                              <div class="panel-body" style="padding-top: 0px; padding-bottom: 0px;">
+                                <div class="x_content">
+                                  <div class="dashboard-widget-content">
+                                    <input type="text" class="form-control" placeholder="Amount" value="3000">
+                                    <div class="clearfix"></div>
+                                    <div class="flex" style="margin-top: 7px;">
+                                      <button type="button" class="btn btn-danger" style="float: left;">Save</button>
+                                      <button type="button" class="btn btn-success" style="float: right;">Pay Now</button>
+                                      <button type="button" class="btn btn-info" style="float: right;">Pay After</button>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+
+
+                          <div class="panel">
+                            <a class="panel-heading collapsed" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+                              <h4 class="panel-title" style="padding-bottom: 0px; margin-bottom: 0px;">
+                                <span class="image user-profile"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                Tharmaratna <small>@tharma</small>
+                                 <span class="label label-success" style="float: right;">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star-half"></i>
+                                  <i class="fa fa-star-o"></i>
+                                </span>
+                              </h4>
+                              <h6 style="padding-left: 45px; margin-top: -5px; margin-bottom: 0px; padding-bottom: 0px;">
+                                <i class="fa fa-map-marker" style="color: #00CC33;"></i> Jaffna,Sri Lanka
+                              </h6>
+                              <div style="float:right; margin-top: -8px;">
+                                <i class="fa fa-circle"></i> LKR 1500
+                              </div>
+                            </a>
+                            <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                              <div class="panel-body" style="padding-top: 0px; padding-bottom: 0px;">
+                                <div class="x_content">
+                                  <div class="dashboard-widget-content">
+                                    <input type="text" class="form-control" placeholder="Amount" value="1500">
+                                    <div class="clearfix"></div>
+                                    <div class="flex" style="margin-top: 7px;">
+                                      <button type="button" class="btn btn-danger" style="float: left;">Save</button>
+                                      <button type="button" class="btn btn-success" style="float: right;">Pay Now</button>
+                                      <button type="button" class="btn btn-info" style="float: right;">Pay After</button>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+
+
+
                         </div>
+                        <!-- end of accordion -->
 
 
-                        <div class="clearfix"></div>
 
-                        <div class="flex" style="padding-bottom: 5px; padding-top: 5px;">
-                          <p style="margin: 0px auto; ">
-                           Last updated : 10/08/2016 24:54
-                          </p>
-                        </div>
-                        <div class="flex">
-                          <ul class="list-inline count2">
-                            <li>
-                              <h3>04</h3>
-                              <span>Disasters</span>
-                            </li>
-                            <li>
-                              <h3>1234</h3>
-                              <span>Victims</span>
-                            </li>
-                            <li>
-                              <h3>123</h3>
-                              <span>Helpers</span>
-                            </li>
-                          </ul>
-                        </div>
 
-                        <div class="flex">
-                          <ul class="list-inline" style="margin: 0px auto;">
-                            <li>
-                              <a href="disaster_reporting.php">
-                              <button type="button" class="btn btn-danger">Report</button>
-                              </a>
-                              <a href="become_helper.php">
-                              <button type="button" class="btn btn-primary">Become Helper</button>
-                              </a>
-                            </li>
-
-                          </ul>
-                        </div>
                       </div>
                     </div>
                   </div>
 
-                </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="x_panel">
-                    <div class="x_title">
-                      <h2>Your are here,  <span class="label label-success" style="color: #ffffff; font-weight: normal; float: right;">SAFE</span></h2>
-                      <ul class="nav navbar-right panel_toolbox">
-                        <li  style="float: right;"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                        </li>
-                      </ul>
-                      <div class="clearfix"></div>
-                    </div>
-                    <div class="x_content">
-                      <div class="dashboard-widget-content">
 
-                        <style>
-                          #map {
-                            height: 200px;
-                          }
-                        </style>
-                        <div id="map"></div>
-                        <script>
-                          // Note: This example requires that you consent to location sharing when
-                          // prompted by your browser. If you see the error "The Geolocation service
-                          // failed.", it means you probably did not give permission for the browser to
-                          // locate you.
-
-                          function initMap() {
-                            var map = new google.maps.Map(document.getElementById('map'), {
-                              center: {lat: -34.397, lng: 150.644},
-                              zoom: 14
-                            });
-                            var infoWindow = new google.maps.InfoWindow({map: map});
-
-                            // Try HTML5 geolocation.
-                            if (navigator.geolocation) {
-                              navigator.geolocation.getCurrentPosition(function(position) {
-                                var pos = {
-                                  lat: position.coords.latitude,
-                                  lng: position.coords.longitude
-                                };
-
-                                infoWindow.setPosition(pos);
-                                infoWindow.setContent('Located');
-                                map.setCenter(pos);
-                              }, function() {
-                                handleLocationError(true, infoWindow, map.getCenter());
-                              });
-                            } else {
-                              // Browser doesn't support Geolocation
-                              handleLocationError(false, infoWindow, map.getCenter());
-                            }
-                          }
-
-                          function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-                            infoWindow.setPosition(pos);
-                            infoWindow.setContent(browserHasGeolocation ?
-                                'Error: The Geolocation service failed.' :
-                                'Error: Your browser doesn\'t support geolocation.');
-                          }
-                        </script>
-                        <script async defer
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7HGxOLetgeLnpdFE2yZchSENPrNuwQho&callback=initMap">
-                        </script>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="row">
-
-
-
-                
-
-              </div>
             </div>
           </div>
         </div>

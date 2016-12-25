@@ -46,7 +46,7 @@
                 <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">Log in</a>
+                <a class="btn btn-default submit" href="index.php">Log in</a>
                 <a class="reset_pass" href="#" style="  text-shadow: none; color: #ffffff;">Lost your password?</a>
               </div>
 
